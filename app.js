@@ -7,3 +7,5 @@ console.log(user)
 
 // System uptime in seconds
 console.log(`The system uptime is ${os.uptime()} seconds`)
+
+console.log("Making new changes")

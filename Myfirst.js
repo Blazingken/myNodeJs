@@ -44,7 +44,7 @@ res.writeHead(200, {'Content-Type' : 'text/html'});
 res.end();
 }).listen(8090);*/
 
-/* var http = require('http');
+var http = require('http');
 var formidable = require('formidable');
 
 http.createServer((_req, res) => {
@@ -61,7 +61,7 @@ http.createServer((_req, res) => {
     res.write('<input type="submit">');
     res.write('</form>');
  }
-}).listen(8090); */
+}).listen(8090);
 
 
 /* var nodemailer = require('nodemailer');
